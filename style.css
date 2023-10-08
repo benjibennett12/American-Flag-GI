@@ -1,0 +1,131 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #ededed;
+}
+
+header {
+    text-align: center;
+}
+
+section {
+    width: 60%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    margin-left: 350px;
+    margin-top: 75px;
+    border: solid 1px #000;
+}
+
+.stars {
+    position: absolute;
+    left: 350px;
+    top: 110px;
+}
+
+
+.stripes {
+    width: 1400px;
+    height: 700px;
+    display: grid;
+    grid-template-rows: repeat(13, 1fr);
+}
+
+.stripes .R {
+    background-color: red;
+}
+
+.stripes .W {
+    background-color: #ededed;
+}
+
+@media (max-width: 1550px) {
+    section {
+        width: 800px;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .stars {
+        width: 200px;
+        height: 100px;
+        left: 365px;
+        /* right: ; */
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+@media (max-width: 1373px) {
+
+    .stars {
+        width: 200px;
+        height: 100px;
+        left: 285px;
+        /* right: ; */
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 1143px) {
+
+    .stars {
+        width: 100px;
+        height: 75px;
+        left: 160px;
+        /* right: ; */
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 1000px) {
+
+    .stars {
+        width: 200px;
+        height: 100px;
+        left: 100px;
+        /* right: ; */
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 782px) {
+
+    .stars {
+        width: 200px;
+        height: 100px;
+        left: 0px;
+        /* right: ; */
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    section {
+        width: 90%;
+        height: 150px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .stars {
+        width: 150px;
+        height: 75px;
+        /* left: 0;
+        right: 0; */
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
